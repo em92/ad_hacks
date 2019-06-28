@@ -2,6 +2,7 @@ import minqlx
 
 NON_SYMMETRICAL_MAPS = set([
     "grimdungeons",
+    "repent",
 ])
 
 class swap_bases_ad(minqlx.Plugin):

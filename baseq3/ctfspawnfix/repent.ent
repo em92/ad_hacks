@@ -1,0 +1,1601 @@
+{
+"_blocksize" "0"
+"_minlight" "10"
+"_minvertexlight" "25"
+"classname" "worldspawn"
+"message" "Repent"
+"_mingridlight" "25"
+"_ambient" "4"
+"music" "music/fla_mp04.wav"
+}
+{
+"not_gametype" "race"
+"angle" "90"
+"origin" "96 -800 96"
+"classname" "info_player_start"
+}
+{
+"targetname" "t6"
+"classname" "misc_teleporter_dest"
+"origin" "-320 -1084 472"
+"angle" "90"
+}
+{
+"classname" "trigger_push"
+"target" "t8"
+"model" "*1"
+}
+{
+"classname" "target_location"
+"origin" "928 -1024 608"
+"targetname" "t8"
+}
+{
+"target" "t10"
+"classname" "trigger_push"
+"model" "*2"
+}
+{
+"targetname" "t10"
+"origin" "-192 -320 544"
+"classname" "target_location"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"model" "*3"
+}
+{
+"dmg" "50"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"target" "t9"
+"classname" "trigger_push"
+"model" "*5"
+}
+{
+"targetname" "t9"
+"origin" "512 608 672"
+"classname" "target_location"
+}
+{
+"target" "jumppad_hatch"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"not_gametype" "race"
+"classname" "trigger_teleport"
+"target" "t7"
+"model" "*7"
+}
+{
+"speed" "512"
+"classname" "func_door"
+"angle" "-1"
+"targetname" "barred_dropdown"
+"lip" "16"
+"wait" "4"
+"dmg" "2"
+"model" "*8"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"target" "barred_dropdown"
+"model" "*9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-288 160 472"
+"targetname" "t12"
+"angle" "90"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "480 160 472"
+"angle" "90"
+}
+{
+"not_gametype" "race"
+"angle" "90"
+"origin" "-288 160 472"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-544 416 536"
+"angle" "135"
+"not_gametype" "race"
+}
+{
+"not_gametype" "race"
+"angle" "45"
+"origin" "-240 -880 88"
+"classname" "info_player_deathmatch"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "368 -880 88"
+"angle" "135"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "448 -96 184"
+"angle" "270"
+}
+{
+"not_gametype" "race"
+"angle" "135"
+"origin" "344 296 152"
+"classname" "info_player_deathmatch"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "-352 128 152"
+"angle" "45"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "-288 1056 120"
+"angle" "270"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "360 768 152"
+"angle" "225"
+}
+{
+"not_gametype" "duel tdm ft"
+"classname" "weapon_lightning"
+"origin" "928 -352 520"
+}
+{
+"spawnflags" "1"
+"origin" "96 -576 80"
+"classname" "item_quad"
+"not_gametype" "duel tdm"
+}
+{
+"not_gametype" "duel tdm ft"
+"origin" "96 1120 272"
+"classname" "weapon_rocketlauncher"
+}
+{
+"not_gametype" "duel race tdm ca ft dom ad rr"
+"classname" "func_static"
+"model" "*10"
+}
+{
+"origin" "96 -864 80"
+"classname" "weapon_shotgun"
+}
+{
+"not_gametype" "race ca dom ad rr"
+"classname" "func_static"
+"model" "*11"
+}
+{
+"not_gametype" "duel tdm ft"
+"classname" "item_health"
+"origin" "288 -160 400"
+}
+{
+"classname" "item_health"
+"origin" "608 -160 400"
+}
+{
+"not_gametype" "duel race tdm ca ft dom ad rr"
+"classname" "func_static"
+"model" "*12"
+}
+{
+"not_gametype" "duel tdm ft"
+"origin" "144 -1488 400"
+"classname" "weapon_railgun"
+}
+{
+"not_gametype" "duel race tdm ca ft dom ad rr"
+"classname" "func_static"
+"model" "*13"
+}
+{
+"not_gametype" "duel tdm ft"
+"classname" "item_armor_combat"
+"origin" "-192 -320 384"
+"spawnflags" "1"
+}
+{
+"not_gametype" "duel tdm ft"
+"origin" "-928 608 528"
+"classname" "weapon_nailgun"
+}
+{
+"not_gametype" "duel tdm ft"
+"classname" "item_armor_combat"
+"origin" "512 608 464"
+"spawnflags" "1"
+}
+{
+"origin" "864 224 -112"
+"classname" "weapon_grenadelauncher"
+}
+{
+"not_gametype" "race ca dom ad rr"
+"classname" "func_static"
+"model" "*14"
+}
+{
+"targetname" "t14"
+"origin" "264 936 352"
+"classname" "info_notnull"
+}
+{
+"classname" "info_notnull"
+"origin" "-72 936 352"
+"targetname" "t15"
+}
+{
+"angles" "-12 -124 0"
+"origin" "552 -79 285"
+"classname" "info_player_intermission"
+}
+{
+"targetname" "t7"
+"origin" "-352 800 472"
+"classname" "misc_teleporter_dest"
+"angle" "360"
+"not_gametype" "ad"
+}
+{
+"classname" "trigger_teleport"
+"target" "t6"
+"model" "*15"
+}
+{
+"classname" "func_bobbing"
+"phase" "1"
+"height" "4"
+"model" "*16"
+}
+{
+"classname" "func_bobbing"
+"height" "2"
+"phase" ".5"
+"model" "*17"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*18"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"phase" "1"
+"model" "*19"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*20"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*21"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"phase" "1"
+"model" "*22"
+}
+{
+"classname" "func_bobbing"
+"height" "2"
+"model" "*23"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*24"
+}
+{
+"classname" "func_bobbing"
+"height" "2"
+"phase" "1"
+"model" "*25"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*26"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*27"
+}
+{
+"classname" "func_bobbing"
+"height" "3"
+"phase" ".5"
+"model" "*28"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*29"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"phase" "1"
+"model" "*30"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"phase" "1"
+"model" "*31"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"phase" "0.5"
+"model" "*32"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*33"
+}
+{
+"classname" "func_static"
+"_cs" "0"
+"model" "*34"
+}
+{
+"height" "10"
+"classname" "func_bobbing"
+"model" "*35"
+}
+{
+"classname" "trigger_push"
+"target" "t13"
+"model" "*36"
+}
+{
+"classname" "target_location"
+"origin" "920 -288 608"
+"message" "Bridge"
+}
+{
+"message" "Balcony"
+"origin" "96 -1024 544"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-896 -256 640"
+"message" "Portico"
+}
+{
+"classname" "trigger_teleport"
+"target" "t11"
+"model" "*37"
+}
+{
+"classname" "func_static"
+"not_gametype" "duel race tdm ca dom rr"
+"model" "*38"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "992 608 536"
+"angle" "180"
+}
+{
+"targetname" "t11"
+"angle" "225"
+"origin" "760 -1336 344"
+"classname" "misc_teleporter_dest"
+"not_gametype" "ad"
+}
+{
+"classname" "info_null"
+"origin" "-32 216 768"
+"targetname" "t17"
+}
+{
+"origin" "224 216 768"
+"classname" "info_null"
+"targetname" "t16"
+}
+{
+"not_gametype" "race"
+"classname" "info_player_deathmatch"
+"origin" "-576 -512 96"
+"angle" "360"
+}
+{
+"origin" "608 -480 16"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "608 -416 16"
+}
+{
+"origin" "-544 288 80"
+"classname" "item_health_large"
+}
+{
+"origin" "-160 800 144"
+"classname" "ammo_lightning"
+}
+{
+"origin" "904 -1504 336"
+"classname" "item_armor_shard"
+}
+{
+"classname" "item_armor_shard"
+"origin" "944 -1456 336"
+}
+{
+"classname" "item_armor_shard"
+"origin" "856 -1544 336"
+}
+{
+"classname" "item_armor_shard"
+"origin" "968 -1400 336"
+}
+{
+"classname" "item_armor_shard"
+"origin" "800 -1576 336"
+}
+{
+"origin" "-352 -864 464"
+"classname" "ammo_rockets"
+}
+{
+"classname" "ammo_cells"
+"origin" "-288 -864 464"
+}
+{
+"spawnflags" "1"
+"origin" "496 1136 376"
+"classname" "ammo_shells"
+}
+{
+"origin" "-304 1136 376"
+"classname" "ammo_grenades"
+}
+{
+"not_gametype" "duel tdm ft"
+"origin" "752 -688 16"
+"classname" "ammo_nails"
+}
+{
+"classname" "item_health"
+"origin" "224 -1312 400"
+}
+{
+"classname" "item_health"
+"origin" "-624 480 528"
+}
+{
+"classname" "ammo_cells"
+"origin" "640 736 528"
+}
+{
+"origin" "640 480 528"
+"classname" "ammo_bullets"
+}
+{
+"classname" "item_health_small"
+"origin" "-192 -32 144"
+}
+{
+"origin" "-192 -96 144"
+"classname" "item_health_small"
+}
+{
+"origin" "-192 -160 144"
+"classname" "weapon_hmg"
+}
+{
+"origin" "-192 32 144"
+"classname" "item_health_small"
+}
+{
+"classname" "ammo_grenades"
+"origin" "-768 -128 336"
+}
+{
+"target" "t12"
+"classname" "trigger_teleport"
+"model" "*39"
+}
+{
+"target" "cathedral_bell"
+"not_gametype" "duel tdm ft"
+"classname" "item_armor_body"
+"origin" "-544 768 80"
+}
+{
+"classname" "func_static"
+"not_gametype" "duel race tdm ca ft dom ad rr"
+"model" "*40"
+}
+{
+"message" "Dungeon"
+"origin" "-1120 800 128"
+"classname" "target_location"
+}
+{
+"not_gametype" "duel tdm ft"
+"classname" "weapon_plasmagun"
+"origin" "-1120 800 80"
+}
+{
+"classname" "target_location"
+"origin" "-928 128 384"
+"targetname" "t13"
+}
+{
+"not_gametype" "race"
+"angle" "90"
+"origin" "-1344 192 136"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_notnull"
+"angle" "90"
+"targetname" "t45"
+"origin" "-288 296 488"
+}
+{
+"origin" "480 296 488"
+"targetname" "t46"
+"angle" "90"
+"classname" "info_notnull"
+}
+{
+"classname" "func_static"
+"not_gametype" "duel race tdm ca ft dom ad rr"
+"model" "*41"
+}
+{
+"not_gametype" "duel tdm ft"
+"origin" "-992 480 80"
+"classname" "item_health_mega"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-896 1120 112"
+}
+{
+"origin" "-832 1120 112"
+"classname" "ammo_slugs"
+}
+{
+"height" "1"
+"classname" "func_bobbing"
+"model" "*42"
+}
+{
+"height" "32"
+"classname" "func_bobbing"
+"model" "*43"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*44"
+}
+{
+"height" "2"
+"classname" "func_bobbing"
+"model" "*45"
+}
+{
+"height" "64"
+"classname" "func_bobbing"
+"model" "*46"
+}
+{
+"height" "4"
+"classname" "func_bobbing"
+"model" "*47"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*48"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*49"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*50"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*51"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*52"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*53"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*54"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*55"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*56"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*57"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*58"
+}
+{
+"height" "4"
+"classname" "func_bobbing"
+"model" "*59"
+}
+{
+"height" "3"
+"classname" "func_bobbing"
+"model" "*60"
+}
+{
+"height" "4"
+"classname" "func_bobbing"
+"model" "*61"
+}
+{
+"height" "7"
+"classname" "func_bobbing"
+"model" "*62"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*63"
+}
+{
+"height" "6"
+"classname" "func_bobbing"
+"model" "*64"
+}
+{
+"height" "4"
+"classname" "func_bobbing"
+"model" "*65"
+}
+{
+"height" "2"
+"classname" "func_bobbing"
+"model" "*66"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*67"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*68"
+}
+{
+"height" "2"
+"classname" "func_bobbing"
+"model" "*69"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*70"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*71"
+}
+{
+"height" "3"
+"classname" "func_bobbing"
+"model" "*72"
+}
+{
+"height" "5"
+"classname" "func_bobbing"
+"model" "*73"
+}
+{
+"height" "7"
+"classname" "func_bobbing"
+"model" "*74"
+}
+{
+"height" "6"
+"classname" "func_bobbing"
+"model" "*75"
+}
+{
+"height" "8"
+"classname" "func_bobbing"
+"model" "*76"
+}
+{
+"height" "10"
+"classname" "func_bobbing"
+"model" "*77"
+}
+{
+"classname" "func_bobbing"
+"height" "4"
+"model" "*78"
+}
+{
+"phase" "0.5"
+"classname" "func_bobbing"
+"height" "8"
+"model" "*79"
+}
+{
+"targetname" "t47"
+"origin" "-832 320 512"
+"classname" "info_notnull"
+}
+{
+"not_gametype" "race"
+"classname" "func_door"
+"team" "high_door"
+"angle" "360"
+"speed" "384"
+"lip" "-8"
+"model" "*80"
+}
+{
+"not_gametype" "race"
+"classname" "func_door"
+"team" "high_door"
+"angle" "180"
+"speed" "384"
+"lip" "-8"
+"model" "*81"
+}
+{
+"classname" "func_static"
+"not_gametype" "duel race tdm ca ft dom ad rr"
+"model" "*82"
+}
+{
+"target" "t48"
+"classname" "func_button"
+"angle" "180"
+"health" "5"
+"wait" "60"
+"not_gametype" "duel tdm ft"
+"model" "*83"
+}
+{
+"target" "t49"
+"targetname" "t48"
+"origin" "1496 -96 416"
+"classname" "target_give"
+}
+{
+"targetname" "t49"
+"origin" "1528 -96 416"
+"classname" "item_health_mega"
+"not_gametype" "duel tdm ft"
+}
+{
+"wait" "15"
+"target" "t50"
+"classname" "trigger_multiple"
+"model" "*84"
+}
+{
+"noise" "sound/ambient/1shot_chains_rattling.wav"
+"targetname" "t50"
+"origin" "96 608 1000"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambient/loop_wind_01.wav"
+"origin" "88 960 1152"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "96 -576 1248"
+"noise" "sound/ambient/loop_wind_01.wav"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"lip" "-128"
+"spawnflags" "4"
+"targetname" "lavapool"
+"wait" "8"
+"speed" "512"
+"dmg" "666"
+"model" "*85"
+}
+{
+"classname" "trigger_teleport"
+"target" "t12"
+"model" "*86"
+}
+{
+"classname" "item_invis"
+"origin" "96 464 -48"
+"not_gametype" "duel tdm ft"
+}
+{
+"classname" "func_button"
+"angle" "-2"
+"health" "40"
+"target" "woodbox"
+"model" "*87"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"health" "1"
+"target" "dungeondoor"
+"model" "*88"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "woodbox"
+"wait" "5"
+"model" "*89"
+}
+{
+"classname" "func_door"
+"targetname" "dungeondoor"
+"angle" "-1"
+"lip" "16"
+"wait" "7"
+"model" "*90"
+}
+{
+"classname" "func_button"
+"angle" "-2"
+"target" "lavapool"
+"health" "1"
+"model" "*91"
+}
+{
+"origin" "0 176 464"
+"classname" "item_health"
+"not_gametype" "duel"
+}
+{
+"classname" "item_health"
+"origin" "192 176 464"
+}
+{
+"target" "cathedral_bell"
+"gametype" "duel tdm ft"
+"classname" "weapon_railgun"
+"origin" "-544 768 112"
+}
+{
+"gametype" "duel tdm ft"
+"classname" "func_static"
+"not_gametype" "race ca dom ad rr"
+"model" "*92"
+}
+{
+"gametype" "duel tdm ft"
+"classname" "item_armor_body"
+"origin" "96 1120 304"
+}
+{
+"gametype" "duel tdm ft"
+"classname" "func_static"
+"model" "*93"
+}
+{
+"gametype" "duel tdm ft"
+"origin" "288 -160 432"
+"classname" "item_health_mega"
+}
+{
+"gametype" "duel ft"
+"classname" "func_static"
+"model" "*94"
+}
+{
+"gametype" "duel ft"
+"origin" "144 -1488 432"
+"classname" "weapon_rocketlauncher"
+}
+{
+"gametype" "duel tdm ft"
+"spawnflags" "1"
+"origin" "512 608 464"
+"classname" "weapon_rocketlauncher"
+}
+{
+"classname" "func_static"
+"gametype" "duel tdm ft"
+"model" "*95"
+}
+{
+"gametype" "duel tdm ft"
+"origin" "608 -808 520"
+"classname" "item_armor_combat"
+}
+{
+"gametype" "duel tdm ft"
+"classname" "func_static"
+"model" "*96"
+}
+{
+"gametype" "duel tdm ft"
+"origin" "-992 480 112"
+"classname" "weapon_lightning"
+}
+{
+"gametype" "duel tdm ft"
+"origin" "-1120 800 112"
+"classname" "item_health"
+}
+{
+"gametype" "duel tdm ft"
+"classname" "func_static"
+"model" "*97"
+}
+{
+"gametype" "duel tdm ft"
+"origin" "-928 608 560"
+"classname" "weapon_plasmagun"
+}
+{
+"gametype" "duel tdm ft"
+"origin" "752 -688 48"
+"classname" "ammo_cells"
+}
+{
+"gametype" "tdm"
+"origin" "144 -1488 464"
+"classname" "item_quad"
+}
+{
+"classname" "func_static"
+"gametype" "tdm"
+"model" "*98"
+}
+{
+"classname" "target_location"
+"origin" "128 -1536 544"
+"message" "Tower"
+}
+{
+"classname" "target_location"
+"origin" "96 -576 256"
+"message" "Courtyard"
+}
+{
+"message" "Lava Strafes"
+"origin" "-544 -64 128"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1344 256 192"
+"message" "Dungeon"
+}
+{
+"message" "Dungeon"
+"origin" "-896 1184 192"
+"classname" "target_location"
+}
+{
+"message" "Great Hall"
+"origin" "96 608 480"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "928 352 640"
+"message" "Door Hallway"
+}
+{
+"message" "Drop-Down"
+"origin" "864 224 0"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "640 -896 640"
+"message" "Balcony"
+}
+{
+"message" "Tower"
+"origin" "928 -1504 544"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "96 608 704"
+"message" "Great Hall"
+}
+{
+"message" "Portico"
+"origin" "-384 -320 640"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-192 -80 240"
+"message" "Shielded Jumppad"
+}
+{
+"message" "Balcony"
+"origin" "928 -896 640"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "928 -1120 384"
+"message" "Tower"
+}
+{
+"message" "Great Hall"
+"origin" "512 608 576"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-832 128 384"
+"message" "Portico"
+}
+{
+"message" "Great Hall"
+"origin" "96 264 576"
+"classname" "target_location"
+}
+{
+"message" "Portico"
+"origin" "-512 -160 448"
+"classname" "target_location"
+}
+{
+"message" "Courtyard"
+"origin" "448 -160 456"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-320 -512 1024"
+"message" "Rooftops"
+}
+{
+"message" "Rooftops"
+"origin" "-160 -128 1024"
+"classname" "target_location"
+}
+{
+"message" "Rooftops"
+"origin" "704 -512 1024"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "512 -960 1024"
+"message" "Rooftops"
+}
+{
+"classname" "info_notnull"
+"origin" "992 -1600 440"
+"targetname" "t51"
+}
+{
+"targetname" "t52"
+"_color" "1.0 0.85 0.5"
+"light" "1"
+"origin" "252 -1624 392"
+"classname" "info_notnull"
+}
+{
+"targetname" "t53"
+"_color" "1.0 0.85 0.5"
+"classname" "info_notnull"
+"origin" "152 -1608 392"
+"light" "1"
+}
+{
+"targetname" "t54"
+"_color" "1.0 0.85 0.5"
+"classname" "info_notnull"
+"origin" "68 -1556 392"
+"light" "1"
+}
+{
+"targetname" "t55"
+"_color" "1.0 0.85 0.5"
+"light" "1"
+"origin" "24 -1484 392"
+"classname" "info_notnull"
+}
+{
+"speed" "512"
+"wait" "1"
+"team" "jumppad_hatch"
+"targetname" "jumppad_hatch"
+"angle" "270"
+"classname" "func_door"
+"model" "*99"
+}
+{
+"speed" "512"
+"wait" "1"
+"team" "jumppad_hatch"
+"targetname" "jumppad_hatch"
+"angle" "90"
+"classname" "func_door"
+"model" "*100"
+}
+{
+"not_gametype" "race"
+"angle" "315"
+"origin" "32 -1312 408"
+"classname" "info_player_deathmatch"
+}
+{
+"gametype" "ca rr"
+"angle" "225"
+"origin" "960 -640 536"
+"classname" "info_player_deathmatch"
+}
+{
+"not_gametype" "race"
+"origin" "-704 -160 344"
+"classname" "info_player_deathmatch"
+}
+{
+"not_gametype" "race"
+"angle" "270"
+"origin" "736 160 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "96 -1120 1256"
+"noise" "sound/ambient/1shot_bell_01.wav"
+"targetname" "cathedral_bell"
+"classname" "target_speaker"
+}
+{
+"gametype" "duel tdm ft"
+"classname" "func_static"
+"model" "*101"
+}
+{
+"classname" "item_armor_jacket"
+"origin" "-1408 576 128"
+"gametype" "duel tdm ft"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "960 -640 544"
+"angle" "225"
+"gametype" "duel"
+"spawnflags" "1"
+}
+{
+"not_gametype" "race"
+"angle" "135"
+"origin" "-544 416 544"
+"classname" "info_player_deathmatch"
+"gametype" "duel"
+"spawnflags" "1"
+}
+{
+"classname" "info_notnull"
+"origin" "56 -1520 544"
+"targetname" "t56"
+}
+{
+"classname" "target_location"
+"origin" "-192 -168 448"
+"message" "Portico"
+}
+{
+"message" "Dungeon"
+"origin" "-1024 192 192"
+"classname" "target_location"
+}
+{
+"origin" "736 -992 520"
+"classname" "item_health"
+"not_gametype" "duel"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "32"
+"lip" "16"
+"targetname" "gl_door"
+"wait" "8"
+"model" "*102"
+}
+{
+"classname" "func_static"
+"gametype" "duel tdm ca ft dom rr"
+"model" "*103"
+}
+{
+"classname" "func_button"
+"angle" "-1"
+"not_gametype" "duel tdm ca ft dom rr"
+"target" "gl_door"
+"model" "*104"
+}
+{
+"not_gametype" "duel tdm ca ft dom rr"
+"classname" "func_static"
+"model" "*105"
+}
+{
+"target" "t73"
+"targetname" "t72"
+"origin" "-1312 224 128"
+"classname" "race_point"
+}
+{
+"target" "t57"
+"origin" "736 -672 16"
+"classname" "race_point"
+}
+{
+"target" "t59"
+"targetname" "t57"
+"classname" "race_point"
+"origin" "-504 -504 80"
+}
+{
+"target" "t60"
+"targetname" "t59"
+"origin" "-544 768 80"
+"classname" "race_point"
+}
+{
+"target" "t61"
+"targetname" "t60"
+"classname" "race_point"
+"origin" "-296 1128 376"
+}
+{
+"target" "t63"
+"targetname" "t61"
+"classname" "race_point"
+"origin" "488 1128 376"
+}
+{
+"target" "t65"
+"targetname" "t63"
+"origin" "928 352 528"
+"classname" "race_point"
+}
+{
+"target" "t66"
+"targetname" "t65"
+"classname" "race_point"
+"origin" "928 -800 528"
+}
+{
+"target" "t67"
+"targetname" "t66"
+"origin" "320 -1536 400"
+"classname" "race_point"
+}
+{
+"target" "t68"
+"targetname" "t67"
+"classname" "race_point"
+"origin" "0 -1024 464"
+}
+{
+"target" "t71"
+"targetname" "t68"
+"origin" "-512 -352 464"
+"classname" "race_point"
+}
+{
+"targetname" "t71"
+"target" "t69"
+"classname" "race_point"
+"origin" "-992 160 528"
+}
+{
+"target" "t70"
+"targetname" "t69"
+"origin" "96 208 464"
+"classname" "race_point"
+}
+{
+"target" "t72"
+"targetname" "t70"
+"classname" "race_point"
+"origin" "-640 1184 112"
+}
+{
+"target" "t74"
+"targetname" "t73"
+"classname" "race_point"
+"origin" "-800 64 336"
+}
+{
+"targetname" "t74"
+"spawnflags" "1"
+"origin" "736 -128 640"
+"classname" "race_point"
+}
+{
+"gametype" "race"
+"angle" "270"
+"origin" "672 192 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "736 192 -104"
+"angle" "270"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "800 192 -104"
+"angle" "270"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "704 128 -104"
+"angle" "270"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "768 128 -104"
+"angle" "270"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "672 64 -104"
+"angle" "270"
+"gametype" "race"
+}
+{
+"gametype" "race"
+"angle" "270"
+"origin" "736 64 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"gametype" "race"
+"angle" "270"
+"origin" "800 64 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"gametype" "race"
+"angle" "225"
+"origin" "944 304 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "880 368 -104"
+"angle" "225"
+"gametype" "race"
+}
+{
+"not_gametype" "race"
+"classname" "func_static"
+"model" "*106"
+}
+{
+"gametype" "race"
+"classname" "func_static"
+"model" "*107"
+}
+{
+"gametype" "race"
+"classname" "func_static"
+"model" "*108"
+}
+{
+"gametype" "race"
+"classname" "func_static"
+"model" "*109"
+}
+{
+"origin" "-320 -864 500"
+"classname" "ammo_pack"
+}
+{
+"classname" "ammo_pack"
+"origin" "752 -688 84"
+}
+{
+"origin" "-768 -128 372"
+"classname" "ammo_pack"
+}
+{
+"classname" "ammo_pack"
+"origin" "640 480 564"
+}
+{
+"classname" "ammo_pack"
+"origin" "-160 800 180"
+}
+{
+"origin" "640 736 564"
+"classname" "ammo_pack"
+}
+{
+"classname" "ammo_pack"
+"origin" "496 1136 378"
+"spawnflags" "1"
+}
+{
+"classname" "ammo_pack"
+"origin" "-864 1120 148"
+}
+{
+"classname" "ammo_pack"
+"origin" "-304 1136 412"
+}
+{
+"classname" "func_static"
+"not_gametype" "race ca dom rr"
+"model" "*110"
+}
+{
+"origin" "96 180 856"
+"classname" "team_CTF_redflag"
+}
+{
+"origin" "144 -1488 464"
+"classname" "team_CTF_blueflag"
+}
+{
+"targetname" "t7"
+"angle" "225"
+"origin" "760 -1336 344"
+"classname" "misc_teleporter_dest"
+"gametype" "ad"
+}
+{
+"targetname" "t11"
+"angle" "360"
+"origin" "-352 800 472"
+"classname" "misc_teleporter_dest"
+"gametype" "ad"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "360 768 152"
+"angle" "225"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "-544 416 536"
+"angle" "135"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "480 160 472"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "-288 160 472"
+"classname" "team_CTF_redplayer"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "-288 1056 120"
+"angle" "270"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "-352 128 152"
+"angle" "45"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "448 -96 184"
+"angle" "270"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "368 -880 88"
+"angle" "135"
+}
+{
+"angle" "45"
+"origin" "-240 -880 88"
+"classname" "team_CTF_blueplayer"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-576 -512 96"
+"angle" "360"
+}
+{
+"angle" "315"
+"origin" "32 -1312 408"
+"classname" "team_CTF_blueplayer"
+}
+{
+"origin" "-704 -160 344"
+"classname" "team_CTF_blueplayer"
+}
+{
+"origin" "288 -160 432"
+"classname" "team_CTF_blueplayer"
+}
+{
+"origin" "608 -160 432"
+"classname" "team_CTF_blueplayer"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "192 176 472"
+"angle" "90"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "0 176 472"
+"angle" "90"
+}
