@@ -46,7 +46,7 @@ type		"ffa duel tdm ca ft rr"
 {
 map		"blackcathedral"
 longname	"Black Cathedral"
-type		"ffa duel tdm ca ft rr dom race"
+type		"ffa duel tdm ca ft rr dom race ad"
 }
 {
 map		"bloodlust"

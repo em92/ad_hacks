@@ -1,6 +1,7 @@
 import minqlx
 
 NON_SYMMETRICAL_MAPS = set([
+    "blackcathedral",
     "grimdungeons",
     "repent",
 ])
