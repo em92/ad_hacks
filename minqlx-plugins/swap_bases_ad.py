@@ -4,6 +4,7 @@ NON_SYMMETRICAL_MAPS = set([
     "blackcathedral",
     "grimdungeons",
     "repent",
+    "purgatory",
 ])
 
 class swap_bases_ad(minqlx.Plugin):
