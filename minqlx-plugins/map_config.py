@@ -1,3 +1,14 @@
+"""
+Loads config file depending on running map
+
+Usage:
+0. (optional) Set value for qlx_map_config_path. Default is "map_configs"
+1. create config file "baseq3/map_configs/default.cfg" and place default cvars
+2. create config file "baseq3/map_configs/$mapname.cfg" and place cvars for $mapname
+
+Notes:
+- Symlinks are accepted
+"""
 import os
 import minqlx
 
