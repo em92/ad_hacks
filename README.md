@@ -5,10 +5,26 @@ This repository contains:
 
 - corrected 8v8 spawns for several quake live maps
 - `swap_bases_ad` plugin to make some non-symmetrical maps playable in A&D gamemode
-- `map_config` plugin to have different config files for different maps
+- some other misc plugins
 
 Installation
 ------------
 
-- copy contents of minqlx-plugins to qlds/minqlx-plugins
+To use corrected 8v8 spawns:
+
 - copy contents of baseq3 to `fs_homepath` directory (default is `~/.quakelive`)
+
+To make switchable bases in A&D gamemode:
+
+- copy `swap_bases_ad.py` to to qlds/minqlx-plugins
+- add `swap_bases_ad` to `qlx_plugins` cvar
+- compile modified version of minqlx:
+
+```
+git clone https://github.com/em92/minqlx.git -b switch-spawns-ad
+cd minqlx
+make
+```
+
+- copy contents of minqlx/bin/* directory to qlds directory
+- glhf!
