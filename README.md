@@ -16,6 +16,7 @@ To use corrected 8v8 spawns:
 
 To make switchable bases in A&D gamemode:
 
+- make sure that noone is playing on the server
 - copy `swap_bases_ad.py` to to qlds/minqlx-plugins
 - add `swap_bases_ad` to `qlx_plugins` cvar
 - compile modified version of minqlx:
