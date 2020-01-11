@@ -13,6 +13,7 @@ Installation
 To use corrected 8v8 spawns:
 
 - copy contents of baseq3 to `fs_homepath` directory (default is `~/.quakelive`)
+- in server settings add `seta sv_altEntDir "ctfspawnfix"`
 
 To make switchable bases in A&D gamemode:
 
